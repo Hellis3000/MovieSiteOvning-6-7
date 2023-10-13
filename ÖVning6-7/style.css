@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+}
+
+#Movie {
+    margin-top: 140px;
+    text-align: center;
+    z-index: 0;
+    margin-bottom: 30px;
+}
+
+#Movie .framing,
+iframe {
+    display: block;
+    margin: auto;
+    z-index: 0;
+}
+
+p {
+    color: rgb(232, 210, 40);
+    text-align: center;
+}
+
+#Info {
+    margin-top: 40px;
+    
+    margin-bottom: 140px;
+    padding: 10px;
+    text-align: center;
+}
+
+#Info .text {
+    display: block;
+    margin: auto;
+    z-index: 0;
+}
+
+#ActorList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+
+#ActorList li {
+    display: inline; 
+    margin: 10px; 
+}
+
+#ActorList li p {
+    display: inline;
+    color: rgb(232, 210, 40);
+    text-decoration: none;
+    margin: 10px; 
+}
+
+#Links {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+
+#Links li {
+    display: inline; 
+    
+    margin: 20px; 
+}
+
+
+#Links li a {
+    size: 10px;
+    display: inline; 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer {
+    padding-top: 25px;
+    display: block;
+    height: 35px;
+    background-color: rgb(232, 210, 40);
+    width: 100%;
+    text-align: center; 
+}
