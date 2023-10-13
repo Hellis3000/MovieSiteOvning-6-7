@@ -28,6 +28,8 @@ p {
     text-align: center;
 }
 
+
+
 #Info {
     margin-top: 40px;
     
@@ -40,6 +42,34 @@ p {
     display: block;
     margin: auto;
     z-index: 0;
+    padding-left: 25%;    
+    padding-right: 25%;
+}
+
+#InfoList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; 
+}
+
+#InfoList li {
+    display: inline; 
+    margin: 10px; 
+}
+
+#InfoList li p {
+    display: inline;
+    color: rgb(232, 210, 40);
+    text-decoration: none;
+    margin: 10px; 
+}
+#InfoList li h3 {
+    display: inline;
+    color: rgb(232, 210, 40);
+    text-decoration: none;
+    margin: 10px; 
 }
 
 #ActorList {
@@ -75,7 +105,11 @@ p {
     margin: 20px; 
 }
 
-
+h3 {
+    size: 10px;
+    color: rgb(232, 210, 40);
+    text-align: center;
+}
 #Links li a {
     size: 10px;
     display: inline; 
